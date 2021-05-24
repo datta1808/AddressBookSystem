@@ -1,16 +1,15 @@
 package com.bridgelabz;
 public class ContactDetails {
         //Declaring the contact detail variables
-        private String firstName;
-        private String lastName;
-        private String address;
-        private String city;
-        private String state;
-        private Long zipCode;
-        private Long phoneNumber;
-        private String emailId;
+        String firstName;
+        String lastName;
+        String address;
+        String city;
+        String state;
+        Long zipCode;
+        Long phoneNumber;
+        String emailId;
 
-        // access private fields using getters and setters method
         public String getFirstName() {
             return firstName;
         }

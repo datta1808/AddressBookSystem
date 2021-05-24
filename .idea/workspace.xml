@@ -23,10 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec6caa00-4061-4988-a962-5e34967316de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ContactDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ContactDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/ContactDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/ContactDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ContactDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ContactDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +74,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AddressBookMain (1)">
+    <configuration name="AddressBookMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.AddressBookMain" />
+      <module name="Address_Book.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddressBookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddressBookMain" />
       <module name="Address_Book.main" />
@@ -74,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddressBookMain (1)" />
         <item itemvalue="Application.AddressBookMain" />
       </list>
     </recent_temporary>
@@ -106,21 +130,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="671" y="176" width="571" height="346" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1621837945042" />
-    <state width="1227" height="142" key="GridCell.Tab.0.bottom" timestamp="1621755168576">
+    <state width="586" height="139" key="GridCell.Tab.0.bottom" timestamp="1621840960795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="142" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621755168576" />
-    <state width="1227" height="142" key="GridCell.Tab.0.center" timestamp="1621755168576">
+    <state width="586" height="139" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
+    <state width="586" height="139" key="GridCell.Tab.0.center" timestamp="1621840960795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="142" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621755168576" />
-    <state width="1227" height="142" key="GridCell.Tab.0.left" timestamp="1621755168576">
+    <state width="586" height="139" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
+    <state width="586" height="139" key="GridCell.Tab.0.left" timestamp="1621840960795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="142" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621755168576" />
-    <state width="1227" height="142" key="GridCell.Tab.0.right" timestamp="1621755168576">
+    <state width="586" height="139" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
+    <state width="586" height="139" key="GridCell.Tab.0.right" timestamp="1621840960795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="142" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621755168576" />
+    <state width="586" height="139" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
   </component>
 </project>
