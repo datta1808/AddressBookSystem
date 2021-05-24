@@ -36,7 +36,6 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/ContactDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/ContactDetails.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ContactDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ContactDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,21 +129,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="671" y="176" width="571" height="346" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1621837945042" />
-    <state width="586" height="139" key="GridCell.Tab.0.bottom" timestamp="1621840960795">
+    <state width="586" height="139" key="GridCell.Tab.0.bottom" timestamp="1621842688378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="586" height="139" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
-    <state width="586" height="139" key="GridCell.Tab.0.center" timestamp="1621840960795">
+    <state width="586" height="139" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621842688378" />
+    <state width="586" height="139" key="GridCell.Tab.0.center" timestamp="1621842688372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="586" height="139" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
-    <state width="586" height="139" key="GridCell.Tab.0.left" timestamp="1621840960795">
+    <state width="586" height="139" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621842688372" />
+    <state width="586" height="139" key="GridCell.Tab.0.left" timestamp="1621842688372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="586" height="139" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
-    <state width="586" height="139" key="GridCell.Tab.0.right" timestamp="1621840960795">
+    <state width="586" height="139" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621842688372" />
+    <state width="586" height="139" key="GridCell.Tab.0.right" timestamp="1621842688372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="586" height="139" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621840960795" />
+    <state width="586" height="139" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621842688372" />
   </component>
 </project>

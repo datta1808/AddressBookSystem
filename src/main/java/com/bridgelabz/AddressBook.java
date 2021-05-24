@@ -38,6 +38,7 @@ public class AddressBook {
 
     }
 
+    // method to edit the contact
     public void editContact() {
         System.out.println("Enter the firstName of person");
         String editName = sc.nextLine();
@@ -49,4 +50,14 @@ public class AddressBook {
             editContact();
         }
     }
-}
+
+        // method to delete the contact
+        public void delete() {
+            System.out.println("Enter firstName of the person");
+            String editName = sc.nextLine();
+            if (editName.equals(person.firstName)) {
+                System.out.println("Deleted " + person.firstName + " details");
+                person = null;
+            }
+        }
+    }

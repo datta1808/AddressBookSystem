@@ -9,19 +9,23 @@ public class AddressBookMain {
         AddressBook addressBook = new AddressBook();
         addressBook.addDetails();
 
-        System.out.println("Address Book data:");
+        System.out.println("Address Book details:");
         System.out.println(addressBook.person);
 
-        System.out.println("Enter \"Y\" to edit ");
-        String op = sc.nextLine();
+        System.out.println("Enter the choice \n 1. Edit \n 2. Delete");
+        int op = sc.nextInt();
 
-        if(op.equals("y") || op.equals("Y")){
-            addressBook.editContact();
-            System.out.println("You have Entered following data");
-            System.out.println(addressBook.person);
-            System.out.println("Thank for Using Address book");
-        }else {
-            System.out.println("Thanks for using ");
+        switch (op){
+            case 1:
+                addressBook.editContact();
+                System.out.println("You have Entered following data");
+                System.out.println(addressBook.person);
+                System.out.println("Thank you for Using the Address book");
+                break;
+            case 2:
+                addressBook.delete();
+                System.out.println("Addess Book details :"+addressBook.person);
+                break;
         }
     }
 }
