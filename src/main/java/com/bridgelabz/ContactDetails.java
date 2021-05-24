@@ -1,3 +1,4 @@
+package com.bridgelabz;
 public class ContactDetails {
         //Declaring the contact detail variables
         private String firstName;
@@ -5,9 +6,9 @@ public class ContactDetails {
         private String address;
         private String city;
         private String state;
-        private int zip;
-        private String phoneNumber;
-        private String email;
+        private Long zipCode;
+        private Long phoneNumber;
+        private String emailId;
 
         // access private fields using getters and setters method
         public String getFirstName() {
@@ -50,28 +51,28 @@ public class ContactDetails {
             this.state = state;
         }
 
-        public int getZip() {
-            return zip;
+        public Long getZipCode() {
+            return zipCode;
         }
 
-        public void setZip(int zip) {
-            this.zip = zip;
+        public void setZipCode(Long zipCode) {
+            this.zipCode = zipCode;
         }
 
-        public String getPhoneNumber() {
+        public Long getPhoneNumber() {
             return phoneNumber;
         }
 
-        public void setPhoneNumber(String phoneNumber) {
+        public void setPhoneNumber(Long phoneNumber) {
             this.phoneNumber = phoneNumber;
         }
 
-        public String getEmail() {
-            return email;
+        public String getEmailId() {
+            return emailId;
         }
 
         public void setEmail(String emailId) {
-            this.email = emailId;
+            this.emailId = emailId;
         }
 
     // overridden the java toString method
@@ -83,9 +84,9 @@ public class ContactDetails {
                 ", Address='" + address + '\'' +
                 ", City='" + city + '\'' +
                 ", State='" + state + '\'' +
-                ", Zip=" + zip +
+                ", Zip=" + zipCode +
                 ", Phone Number='" + phoneNumber + '\'' +
-                ", Email='" + email + '\'' +
+                ", Email='" + emailId + '\'' +
                 '}';
     }
 }
