@@ -7,20 +7,21 @@ public class AddressBookMain {
     public static Map<String, AddressBook> addressBookHashMap = new HashMap<>();
     Scanner scanner = new Scanner(System.in);
 
+    // USER INPUT
     public void addDataToAddressBook() {
 
         String chooseContact, chooseCity;
 
         do {
             System.out.println("Enter the name of city");
-            String cityForMap = scanner.nextLine();
-            AddressBook addressBook = new AddressBook(cityForMap);
+            String city = scanner.nextLine();
+            AddressBook addressBook = new AddressBook(city);
             for (Map.Entry<String, AddressBook> entry : addressBookHashMap.entrySet()) {
-                if (entry.getKey().equals(cityForMap)) {
+                if (entry.getKey().equals(city)) {
                     addressBook = entry.getValue();
                 }
             }
-            addressBookHashMap.put(cityForMap, addressBook);
+            addressBookHashMap.put(city, addressBook);
             do {
                 System.out.println("Enter first name:");
                 String firstName = scanner.nextLine();
@@ -35,7 +36,7 @@ public class AddressBookMain {
                 String state = scanner.nextLine();
 
                 System.out.println("Enter zip code:");
-                String zipcode = scanner.nextLine();
+                String zip = scanner.nextLine();
 
                 System.out.println("Enter phone number:");
                 String phoneNumber = scanner.nextLine();
@@ -43,24 +44,25 @@ public class AddressBookMain {
                 System.out.println("Enter emailId number:");
                 String emailID = scanner.nextLine();
 
-                Contact contact = new Contact(firstName, lastName, address, cityForMap, state, zipcode, phoneNumber, emailID);
-                System.out.println("Contact added successfully!!");
+                Contact contact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, emailID);
 
                 for (Map.Entry<String, AddressBook> entry : addressBookHashMap.entrySet()) {
-                    if (entry.getKey().equalsIgnoreCase(cityForMap)) {
+                    if (entry.getKey().equalsIgnoreCase(city)) {
                         entry.getValue().addContact(contact);
                     }
                 }
                 System.out.println("Do you want to add contact again? Yes|No");
                 chooseContact = scanner.nextLine();
-            } while (chooseContact.equals("yes"));
+            } while (chooseContact.equalsIgnoreCase("yes"));
             System.out.println("Do you want to add another city Yes|No");
             chooseCity = scanner.nextLine();
-        } while (chooseCity.equals("yes"));
+        } while (chooseCity.equalsIgnoreCase("yes"));
 
-        System.out.println("ADDRESS BOOK :--->" + addressBookHashMap);
+        System.out.println(addressBookHashMap);
     }
 
+
+    // MAIN METHOD
     public static void main(String[] args) {
         System.out.println(" ---------------------------- Welcome To AddressBook System ------------------------------");
         Scanner scanner = new Scanner(System.in);
@@ -103,9 +105,11 @@ public class AddressBookMain {
                         }
                     }
                     break;
+
                 case 4:
-                    System.out.println(Collections.singletonList(addressBookHashMap)); // method 1
-                    System.out.println(Collections.singletonList(addressBookHashMap)); // method 2
+                    //The singletonList() method of java.util.Collections class is used to return an immutable list containing only the specified object.
+                    System.out.println(Collections.singletonList(addressBookHashMap));
+                    System.out.println(Collections.singletonList(addressBookHashMap));
                     for (Map.Entry<String,AddressBook> entry : addressBookHashMap.entrySet()) {
                         System.out.println(entry.getKey() + "\t" + entry.getValue().getAddressBook()); }
                     break;
