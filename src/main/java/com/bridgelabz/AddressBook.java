@@ -1,7 +1,6 @@
 package com.bridgelabz;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class AddressBook {
 
@@ -21,40 +20,36 @@ public class AddressBook {
         this.addressBook = addressBook;
     }
 
+    // method to check for duplicate entry
     public boolean checkDuplicateEntry(Contact contact) {
         boolean status = false;
-        for (Contact value : addressBook) {
-            if (value.equals(contact)) {
-                status = true;
-            } else {
-                status = false;
-            }
+        for (Contact person : addressBook) {
+            status = person.equals(contact);
         }
         return status;
     }
 
     // ADD CONTACT
-    public boolean addContact(Contact contact) {
+    public void addContact(Contact contact) {
         boolean duplicateStatus = checkDuplicateEntry(contact);
-        if (duplicateStatus==false) {
+        if (!duplicateStatus) {
             addressBook.add(contact);
-            System.out.println("Contact added successfully!!");
-        }else {
-            System.out.println("The person already exists!!!");
+            System.out.println("Contact added successfully!");
+        } else {
+            System.out.println("The person already exists!");
         }
-        System.out.println("AddressBook Data:" + addressBook);
-        return  true;
+        System.out.println("AddressBook Data : " + addressBook);
     }
 
     // EDIT contact from the addressBook by the FIRSTNAME
     public void editContactByFirstName(String firstname) {
-        String checkName;
+        String editName;
         Integer choice;
         for (Contact contact : addressBook) {
-            checkName = contact.getFirstName();
-            if (firstname.equals(checkName)) {
+            editName = contact.getFirstName();
+            if (firstname.equalsIgnoreCase(editName)) {
                 do {
-                    System.out.println("1. Edit First name" + "\n" + "2. Edit Last name" + "\n" + "3. Edit Address " + "\n" + "4. Edit City " + "\n" + "5. Edit State" + "\n" + "6. Edit Zipcode " + "\n" + "7. Edit Phone Number" + "\n" + "8. Edit Email" + "0. EXIT" + "\n" + "Enter your choice :");
+                    System.out.println("1. Edit First name" + "\n" + "2. Edit Last name" + "\n" + "3. Edit Address " + "\n" + "4. Edit City " + "\n" + "5. Edit State" + "\n" + "6. Edit Zipcode " + "\n" + "7. Edit Phone Number" + "\n" + "8. Edit Email" + "\n" +"0. EXIT" + "\n" + "Enter your choice :");
                     choice = scanner.nextInt();
                     switch (choice) {
                         case 1:
@@ -116,17 +111,15 @@ public class AddressBook {
 
     // DELETE contact from the address book by the FIRSTNAME
     public void deleteContact(String firstname) {
-        String checkName2;
+        String deleteName;
         for (Contact contact : addressBook) {
-            checkName2 = contact.getFirstName();
-            System.out.println(checkName2);
-            if (firstname.equals(checkName2)) {
-                try {
-                    addressBook.remove(contact);
-                    System.out.println("Contact name " + firstname + "deleted successfully from the contact list");
-                } catch(Exception e) {
-                    System.out.println("There is no contact named " + firstname + ". Please Enter a Valid Name!!");
-            }
+            deleteName = contact.getFirstName();
+            System.out.println(deleteName);
+            if (firstname.equalsIgnoreCase(deleteName)) {
+                addressBook.remove(contact);
+                System.out.println("Contact name " + firstname + "deleted successfully from the contact list");
+            } else {
+                System.out.println("There is no contact named " + firstname + ". Please Enter a Valid Name!!");
             }
         }
     }

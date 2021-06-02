@@ -72,14 +72,17 @@ public class Contact {
     }
 
 
+    //Overriding equals method to compare Contact objects
     @Override
     public boolean equals(Object obj) {
         boolean result = false;
 
+        // If the object is compared with itself then returns true
         if(obj == this) {
             return true;
         }
-        Contact contact = (Contact)obj; //casted the above object inside Contact
+        Contact contact = (Contact)obj; // typecast obj to Contact so that we can compare data members
+        //Compare data members and return accordingly
         if(contact.firstName.equals(this.firstName) && contact.lastName.equals(this.lastName)) {
             result = true;
         }
