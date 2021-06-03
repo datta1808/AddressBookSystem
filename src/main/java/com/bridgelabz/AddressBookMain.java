@@ -66,16 +66,17 @@ public class AddressBookMain {
 
 
 
-    // method to view person by city
-    public static void viewContactByCityOrState(String city) {
-        List<Contact> list = new ArrayList<>();
-        for(Map.Entry < String, AddressBook> entries : addressBookHashMap.entrySet()) {
-            list = entries.getValue().getAddressBook().stream().filter(p -> p.getCity().equalsIgnoreCase(city)).collect(Collectors.toList());
+        // method to view person by city
+        public static void viewContactByCityOrState(String city) {
+            List<Contact> list = new ArrayList<>();
+            for(Map.Entry < String, AddressBook> entries : addressBookHashMap.entrySet()) {
+                list = entries.getValue().getAddressBook().stream().filter(p -> p.getCity().equalsIgnoreCase(city)).collect(Collectors.toList());
+            }
+            for(Contact person : list) {
+                System.out.println(person.getFirstName() + " " + person.getLastName());
+            }
         }
-        for(Contact person : list) {
-            System.out.println(person.getFirstName() + " " + person.getLastName());
-        }
-    }
+
 
     // method to get number of contact persons by city
     public static void  getCountByCity(String city) {
@@ -85,6 +86,17 @@ public class AddressBookMain {
             count1 += count;
         }
         System.out.println(count1 + " Contacts in " + city);
+    }
+
+
+    // method to sort the entries alphabetically by Person's Name
+    public static void sortByName() {
+        List<Contact> list = new ArrayList<>();
+        for(Map.Entry<String, AddressBook> entries : addressBookHashMap.entrySet()) {
+            list = new ArrayList<>(entries.getValue().getAddressBook());
+        }
+        list.stream().sorted((p1, p2) -> ((String)p1.getFirstName()).compareTo(p2.getFirstName()))
+                .forEach(contact -> System.out.println(contact.getFirstName()+" "+contact.getLastName()));
     }
 
 
@@ -102,7 +114,8 @@ public class AddressBookMain {
                                 "4. Search Contact by City " + "\n" +
                                 "5. View Contact by City" + "\n" +
                                 "6. Count Contacts by City" + "\n" +
-                                "7. Show Contacts" + "\n" +
+                                "7. Sort Contacts By Name" + "\n" +
+                                "8. Show Contacts" + "\n" +
                                 "0. Exit" + "\n" +
                                 "Enter your choice:");
 
@@ -166,6 +179,10 @@ public class AddressBookMain {
                     break;
 
                 case 7:
+                    sortByName();
+                    break;
+
+                case 8:
                     for (Map.Entry<String,AddressBook> entry : addressBookHashMap.entrySet()) {
                         System.out.println(entry.getKey() + "\t" + entry.getValue().getAddressBook()); }
             }
