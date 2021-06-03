@@ -49,7 +49,7 @@ public class AddressBook {
             editName = contact.getFirstName();
             if (firstname.equalsIgnoreCase(editName)) {
                 do {
-                    System.out.println("1. Edit First name" + "\n" + "2. Edit Last name" + "\n" + "3. Edit Address " + "\n" + "4. Edit Zipcode " + "\n" + "5. Edit Phone Number" + "\n" + "7. Edit Email" + "\n" +"0. EXIT" + "\n" + "Enter your choice :");
+                    System.out.println("1. Edit First name" + "\n" + "2. Edit Last name" + "\n" + "3. Edit Address" + "\n" + "4. Edit Zipcode " + "\n" + "5. Edit Phone Number" + "\n" + "7. Edit Email" + "\n" +"0. EXIT" + "\n" + "Enter your choice :");
                     choice = scanner.nextInt();
                     switch (choice) {
                         case 1:

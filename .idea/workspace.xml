@@ -31,11 +31,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Contact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,22 +149,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="271" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1622138732358" />
-    <state width="1227" height="176" key="GridCell.Tab.0.bottom" timestamp="1622705947701">
+    <state width="1227" height="176" key="GridCell.Tab.0.bottom" timestamp="1622707427339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622705947701" />
-    <state width="1227" height="176" key="GridCell.Tab.0.center" timestamp="1622705947701">
+    <state width="1227" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622707427339" />
+    <state width="1227" height="176" key="GridCell.Tab.0.center" timestamp="1622707427339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622705947701" />
-    <state width="1227" height="176" key="GridCell.Tab.0.left" timestamp="1622705947701">
+    <state width="1227" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622707427339" />
+    <state width="1227" height="176" key="GridCell.Tab.0.left" timestamp="1622707427339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622705947701" />
-    <state width="1227" height="176" key="GridCell.Tab.0.right" timestamp="1622705947701">
+    <state width="1227" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622707427339" />
+    <state width="1227" height="176" key="GridCell.Tab.0.right" timestamp="1622707427339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622705947701" />
+    <state width="1227" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622707427339" />
     <state x="0" y="0" key="new project wizard" timestamp="1622311418729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

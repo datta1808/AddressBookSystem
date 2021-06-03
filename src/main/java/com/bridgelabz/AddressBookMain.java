@@ -77,6 +77,16 @@ public class AddressBookMain {
         }
     }
 
+    // method to get number of contact persons by city
+    public static void  getCountByCity(String city) {
+        long count1 = 0;
+        for(Map.Entry<String, AddressBook> entries : addressBookHashMap.entrySet()) {
+            long count = entries.getValue().getAddressBook().stream().filter(p -> p.getCity().equals(city)).count();
+            count1 += count;
+        }
+        System.out.println(count1 + " Contacts in " + city);
+    }
+
 
 
     // MAIN METHOD
@@ -91,7 +101,8 @@ public class AddressBookMain {
                                 "3. Delete contact details" + "\n" +
                                 "4. Search Contact by City " + "\n" +
                                 "5. View Contact by City" + "\n" +
-                                "6. Show Contacts" + "\n" +
+                                "6. Count Contacts by City" + "\n" +
+                                "7. Show Contacts" + "\n" +
                                 "0. Exit" + "\n" +
                                 "Enter your choice:");
 
@@ -149,6 +160,12 @@ public class AddressBookMain {
                     break;
 
                 case 6:
+                    System.out.println("Enter the city for you want to count contact");
+                    String city4 = scanner.next();
+                    getCountByCity(city4);
+                    break;
+
+                case 7:
                     for (Map.Entry<String,AddressBook> entry : addressBookHashMap.entrySet()) {
                         System.out.println(entry.getKey() + "\t" + entry.getValue().getAddressBook()); }
             }
