@@ -7,6 +7,7 @@ public class AddressBook {
     Scanner scanner = new Scanner(System.in);
     public String name;
 
+    // Arraylist to store multiple contacts
     public ArrayList<Contact> addressBook = new ArrayList<>();
 
     public AddressBook(String name) {

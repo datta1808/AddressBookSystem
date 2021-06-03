@@ -100,6 +100,29 @@ public class AddressBookMain {
     }
 
 
+    // method to sort entries by zip
+    public static void sortByZip() {
+        List<Contact> list = new ArrayList<>();
+        for(Map.Entry<String, AddressBook> entries : addressBookHashMap.entrySet()) {
+            list = entries.getValue().getAddressBook().stream().collect(Collectors.toList());
+        }
+        list.stream().sorted((p1, p2) -> ((String)p1.getZip()).compareTo(p2.getZip()))
+                .forEach(contact -> System.out.println(contact.getFirstName()+" "+contact.getLastName()));
+    }
+
+
+    // method to sort entries by city
+    public static void sortByCity() {
+        List<Contact> list = new ArrayList<>();
+        for(Map.Entry<String, AddressBook> entries : addressBookHashMap.entrySet()) {
+            list = entries.getValue().getAddressBook().stream().collect(Collectors.toList());
+        }
+        list.stream().sorted((p1, p2) -> ((String)p1.getCity()).compareTo(p2.getCity()))
+                .forEach(contact -> System.out.println(contact.getFirstName()+" "+contact.getLastName()));
+    }
+
+
+
 
     // MAIN METHOD
     public static void main(String[] args) {
@@ -115,7 +138,8 @@ public class AddressBookMain {
                                 "5. View Contact by City" + "\n" +
                                 "6. Count Contacts by City" + "\n" +
                                 "7. Sort Contacts By Name" + "\n" +
-                                "8. Show Contacts" + "\n" +
+                                "8. Sort Contact By City|Zip" + "\n" +
+                                "9. Show Contacts" + "\n" +
                                 "0. Exit" + "\n" +
                                 "Enter your choice:");
 
@@ -183,6 +207,13 @@ public class AddressBookMain {
                     break;
 
                 case 8:
+                    System.out.println("Sort By Zip:");
+                    sortByZip();
+                    System.out.println("Sort By City:");
+                    sortByCity();
+                    break;
+
+                case 9:
                     for (Map.Entry<String,AddressBook> entry : addressBookHashMap.entrySet()) {
                         System.out.println(entry.getKey() + "\t" + entry.getValue().getAddressBook()); }
             }
