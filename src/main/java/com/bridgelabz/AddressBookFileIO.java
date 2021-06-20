@@ -11,7 +11,6 @@ public class AddressBookFileIO {
         try {
             //create new BufferedWriter for the output file
             bf = new BufferedWriter(new FileWriter(file));
-
             //iterate map entries
             for (Map.Entry<String, AddressBook> entry : addressBook.entrySet()) {
                 //put key and value separated by a colon
@@ -26,7 +25,6 @@ public class AddressBookFileIO {
             e.printStackTrace();
         }
     }
-
     //  public List<Contacts> readData() {
     public static Map<String,  String> readData() {
         Map<String, String> mapFileContents = new HashMap<>();
@@ -44,24 +42,22 @@ public class AddressBookFileIO {
 
                 //split the line by :
                 String[] parts = line.split(":");
-                //            String[] parts2 = line2.split(",");
-                //  System.out.println(parts.);
 
                 //first part is name, second is age
                 String bookName = parts[0].trim();
                 String fname = parts[1].trim();
-//                String fName = parts[2].trim();
-                //              String lName=parts2[1].trim();//parts[2].trim();
-                //            String address=parts[3].trim();
-                //          String city=parts[4].trim();
-                //        String state=parts[5].trim();
-                //      Long zip = Long.parseLong(parts[6].trim());
-                //    Long phone= Long.parseLong(parts[7].trim());
-                //  String email=parts[8].trim();
-
+/*
+                String fName = parts[2].trim();
+                String lName=parts2[1].trim();//parts[2].trim();
+                String address=parts[3].trim();
+                String city=parts[4].trim();
+                String state=parts[5].trim();
+                Long zip = Long.parseLong(parts[6].trim());
+                Long phone= Long.parseLong(parts[7].trim());
+                String email=parts[8].trim();
+*/
                 mapFileContents.put(bookName, fname);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
