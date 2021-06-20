@@ -25,17 +25,17 @@
     <list default="true" id="ec6caa00-4061-4988-a962-5e34967316de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Contact.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,26 +151,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="271" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1622138732358" />
-    <state width="1227" height="176" key="GridCell.Tab.0.bottom" timestamp="1622731224641">
+    <state x="306" y="28" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624202184981">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622731224641" />
-    <state width="1227" height="176" key="GridCell.Tab.0.center" timestamp="1622731224641">
+    <state x="306" y="28" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1624202184981" />
+    <state width="1227" height="327" key="GridCell.Tab.0.bottom" timestamp="1623471251084">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622731224641" />
-    <state width="1227" height="176" key="GridCell.Tab.0.left" timestamp="1622731224641">
+    <state width="1227" height="327" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1623471251084" />
+    <state width="1227" height="327" key="GridCell.Tab.0.center" timestamp="1623471251084">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622731224641" />
-    <state width="1227" height="176" key="GridCell.Tab.0.right" timestamp="1622731224641">
+    <state width="1227" height="327" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1623471251084" />
+    <state width="1227" height="327" key="GridCell.Tab.0.left" timestamp="1623471251084">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622731224641" />
-    <state x="0" y="0" key="new project wizard" timestamp="1622311418729">
+    <state width="1227" height="327" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1623471251084" />
+    <state width="1227" height="327" key="GridCell.Tab.0.right" timestamp="1623471251084">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1622311418729" />
+    <state width="1227" height="327" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1623471251084" />
+    <state x="0" y="0" key="new project wizard" timestamp="1623577844037">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1623577844037" />
     <state x="213" y="147" key="run.anything.popup" timestamp="1622707813480">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
