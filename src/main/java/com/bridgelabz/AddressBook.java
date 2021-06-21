@@ -163,7 +163,8 @@ public class AddressBook {
                     }
                     break;
                 case 4:
-                    System.out.println(toString()); //call tostring method for showing details
+                    //call toString method for showing details
+                    System.out.println(toString());
                     break;
                 case 5:
                     sortByOption();
@@ -176,6 +177,7 @@ public class AddressBook {
             }
         }
     }
+
     //method for search contacts by option
     public static void searchByOptions() {
         System.out.println("1. Search By name");
@@ -207,6 +209,7 @@ public class AddressBook {
                 System.out.println("INVALID CHOICE!");
         }
     }
+
     //method for view element by option
     public static void viewByOption(Map<String, AddressBook> addressBookMap) {
         System.out.println("1. View By name");

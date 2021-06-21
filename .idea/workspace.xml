@@ -29,12 +29,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contacts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Contacts.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookFileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookFileIO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bridgelabz/AddressBookMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookFileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookFileIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/AddressBookMain.java" afterDir="false" />
     </list>
@@ -156,22 +163,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="306" y="28" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1624202184981" />
-    <state width="1227" height="327" key="GridCell.Tab.0.bottom" timestamp="1624203837218">
+    <state width="1227" height="413" key="GridCell.Tab.0.bottom" timestamp="1624270149004">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="327" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624203837218" />
-    <state width="1227" height="327" key="GridCell.Tab.0.center" timestamp="1624203837218">
+    <state width="1227" height="413" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624270149004" />
+    <state width="1227" height="413" key="GridCell.Tab.0.center" timestamp="1624270149004">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="327" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1624203837218" />
-    <state width="1227" height="327" key="GridCell.Tab.0.left" timestamp="1624203837218">
+    <state width="1227" height="413" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1624270149004" />
+    <state width="1227" height="413" key="GridCell.Tab.0.left" timestamp="1624270149004">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="327" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1624203837218" />
-    <state width="1227" height="327" key="GridCell.Tab.0.right" timestamp="1624203837218">
+    <state width="1227" height="413" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1624270149004" />
+    <state width="1227" height="413" key="GridCell.Tab.0.right" timestamp="1624270149004">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1227" height="327" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1624203837218" />
+    <state width="1227" height="413" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1624270149004" />
+    <state width="1227" height="244" key="GridCell.Tab.1.bottom" timestamp="1624205956415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="244" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624205956415" />
+    <state width="1227" height="244" key="GridCell.Tab.1.center" timestamp="1624205956415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="244" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1624205956415" />
+    <state width="1227" height="244" key="GridCell.Tab.1.left" timestamp="1624205956415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="244" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1624205956415" />
+    <state width="1227" height="244" key="GridCell.Tab.1.right" timestamp="1624205956415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1227" height="244" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1624205956415" />
     <state x="0" y="0" key="new project wizard" timestamp="1623577844037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -180,5 +203,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1622707813480" />
+    <state x="219" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1624269684647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="219" y="0" width="840" height="1034" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1624269684647" />
   </component>
 </project>
